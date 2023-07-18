@@ -1,0 +1,30 @@
+/* Header Section Start Here */
+
+@media screen and (max-width: 576px) {
+
+    .header-section {
+        padding: 40px;
+    }
+
+    .header-top {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .menu-items ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu-items ul li {
+        margin: 15px 0;
+    }
+       
+       
+    
+}
+
+
+/* Header Section End Here */
+/* -------------------------------- */

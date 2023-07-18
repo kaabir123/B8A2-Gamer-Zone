@@ -1,0 +1,19 @@
+
+
+/* Header Section Start Here */
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .header-top{
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .header-top-left {
+       
+        margin-bottom: 60px;
+    }
+    
+}
+
+/* Header Section End Here */
+/* -------------------------------- */
