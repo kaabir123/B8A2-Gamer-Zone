@@ -70,7 +70,24 @@
 
     .image-description{}
 
+
+    .play {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+    }
+
+    .image-2 {
+        position: absolute;
+        top: 504px;
+        left: -76px;
+    }
+
 }
+
 
 
 /* Header Section End Here */
