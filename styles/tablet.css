@@ -2,7 +2,7 @@
 
 /* Header Section Start Here */
 
-@media screen and (min-width:577px) and (max-width:768px) {
+@media screen and (min-width:577px) and (max-width:992px) {
     .header-top{
         flex-direction: column;
         padding: 30px;
@@ -17,6 +17,32 @@
         background: rgba(11, 2, 35, 0.10);
         padding: 15px;
         margin: -15px;
+    }
+
+    .header-banner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .header-banner-right{
+        margin-top: 100px;
+
+    }
+
+    .gammer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 600px;
+        margin-top: 450px;
+        flex-direction: column;
+        padding: 60px;
+    }
+    .gammer-section-left{
+        order: 2;
     }
 }
 

@@ -13,18 +13,48 @@
         flex-direction: column;
         text-align: center;
     }
+
     .menu-items ul li {
         margin: 15px 0;
     }
-       
+
     .box {
         margin: 25px 0;
         border-radius: 8px;
         background: rgba(11, 2, 35, 0.10);
         padding: 15px 25px;
     }
-       
-    
+
+
+    .header-banner-section {
+        margin-top: 150px;
+    }
+
+    .header-banner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 25px;
+    }
+
+    .header-banner-left {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        order: 2;
+    }
+
+    .gammer-content {
+        margin-top: 400px;
+        display: flex;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
 }
 
 

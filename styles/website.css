@@ -111,6 +111,7 @@
      background-repeat: no-repeat;
      background-position: bottom left;
      background-size: contain;
+     /* padding: 100px 0; */
  }
 
  .header-banner {
@@ -196,27 +197,114 @@
      line-height: normal;
      text-transform: uppercase;
  }
- .play-icon{
-    color: #FF42A5;
- }
- .download-icon{
-    color: #FF42A5;
- }
- .usser-icon{
-    color: rgb(182, 227, 182);
+
+ .play-icon {
+     color: #FF42A5;
  }
 
+ .download-icon {
+     color: #FF42A5;
+ }
 
-
-
-
-
-
-
+ .usser-icon {
+     color: rgb(182, 227, 182);
+ }
 
 
  /* Header banner Section End Here */
  /* -------------------------------- */
 
  /* Header Section End Here */
+ /* -------------------------------- */
+
+
+
+ /* Gammer Section Start Here */
+
+ .gammer-section {
+     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+ }
+
+ .gammer-content {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 600px;
+ }
+
+ .gammer-section-left {}
+
+ .gammer-section-left img {
+     max-width: 100%;
+ }
+
+ .gammer-section-right {}
+
+ .gammer-section-right h1 {
+     text-align: right;
+     font-family: Work Sans;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     margin-bottom: 30px;
+ }
+
+ .gammer-section-right p {
+     width: 520px;
+     color: #534C64;
+     text-align: right;
+     font-family: Work Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+     /* 166.667% */
+ }
+
+ .gammer-section-right h4 {
+     color: #534C64;
+     text-align: right;
+     font-family: Work Sans;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 45px;
+     /* 187.5% */
+     margin-top: 30px;
+ }
+
+ .gammer-section-right h3 {
+     color: #534C64;
+     font-family: Work Sans;
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 45px;
+ }
+
+ .btn-3 {
+     margin-left: 310px;
+     margin-top: 30px;
+     text-align: right;
+     border: none;
+     display: inline-flex;
+     padding: 21px 40px;
+     color: #FFF;
+     font-family: Work Sans;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     text-transform: uppercase;
+     border-radius: 48px;
+     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+ }
+
+ /* Gammer Section End Here */
  /* -------------------------------- */
