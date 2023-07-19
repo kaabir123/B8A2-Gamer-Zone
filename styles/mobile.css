@@ -53,7 +53,22 @@
         flex-direction: column;
     }
 
+    .video-section {
+        padding: 48px;
+        margin: 70px 0;
+    }
+    .image-section {
+        margin: 15px;
+    }
 
+    .video-gallary{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-section{}
+
+    .image-description{}
 
 }
 

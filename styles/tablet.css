@@ -1,17 +1,16 @@
-
-
 /* Header Section Start Here */
 
 @media screen and (min-width:577px) and (max-width:992px) {
-    .header-top{
+    .header-top {
         flex-direction: column;
         padding: 30px;
     }
 
     .header-top-left {
-       
+
         margin-bottom: 60px;
     }
+
     .box {
         border-radius: 8px;
         background: rgba(11, 2, 35, 0.10);
@@ -27,7 +26,7 @@
         margin-top: 100px;
     }
 
-    .header-banner-right{
+    .header-banner-right {
         margin-top: 100px;
 
     }
@@ -41,10 +40,25 @@
         flex-direction: column;
         padding: 60px;
     }
-    .gammer-section-left{
+
+    .gammer-section-left {
         order: 2;
     }
+    .video-section{}
+
+    .video-gallary {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        align-content: flex-end;
+    }
+
 }
 
 /* Header Section End Here */
 /* -------------------------------- */
+
+
