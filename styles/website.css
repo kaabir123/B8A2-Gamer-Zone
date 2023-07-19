@@ -43,7 +43,7 @@
      align-items: center;
  }
 
- .logo {}
+
 
  .logo img {
      width: 86.041px;
@@ -69,7 +69,11 @@
 
  .header-top-right {}
 
- .menu-items {}
+ .menu-items {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 
  .menu-items ul {
      display: flex;
@@ -81,15 +85,138 @@
      margin-right: 36px;
  }
 
- .menu-items ul li a {
+ .box {
+     border-radius: 8px;
+     background: rgba(11, 2, 35, 0.10);
+     padding: 15px 25px;
+     margin: -15px;
+ }
+
+ .box a {
      text-decoration: none;
  }
 
- .extra-1 {
-     border-radius: 8px;
-     background: rgba(11, 2, 35, 0.10);
-     padding: 15px 80px;
+ .icons-1 {
+     color: #F61C0D;
+     margin: 0 5px;
  }
+
+
+ /* Header banner Section Start Here */
+
+ .header-banner-section {
+     background-image: url('/images/Group\ 14.png');
+     height: 600px;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-position: bottom left;
+     background-size: contain;
+ }
+
+ .header-banner {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .header-banner-left h3 {
+     color: #0B0223;
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     text-transform: uppercase;
+ }
+
+ .header-banner-left h1 {
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 95px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+     text-transform: uppercase;
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .header-banner-left ul {
+     color: #534C64;
+     font-family: Work Sans;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     text-transform: lowercase;
+
+ }
+
+ .header-banner-left ul li {
+     list-style: none;
+     margin: 10px;
+ }
+
+ .header-banner-left ul li {}
+
+ .header-banner-right img {
+     max-width: 100%;
+     height: 500px;
+ }
+
+ .btn-1 {
+     border: none;
+     padding: 21px 40px;
+     border-radius: 48px;
+     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+     color: #FFF;
+     font-family: Work Sans;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     text-transform: uppercase;
+     margin-right: 15px;
+     margin-top: 50px;
+ }
+
+ .btn-2 {
+     border: none;
+     border-radius: 48px;
+     background: #4EC5F7;
+     padding: 21px 40px;
+     color: #FFF;
+     font-family: Work Sans;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     text-transform: uppercase;
+ }
+ .play-icon{
+    color: #FF42A5;
+ }
+ .download-icon{
+    color: #FF42A5;
+ }
+ .usser-icon{
+    color: rgb(182, 227, 182);
+ }
+
+
+
+
+
+
+
+
+
+
+ /* Header banner Section End Here */
+ /* -------------------------------- */
 
  /* Header Section End Here */
  /* -------------------------------- */

@@ -12,7 +12,12 @@
        
         margin-bottom: 60px;
     }
-    
+    .box {
+        border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+        padding: 15px;
+        margin: -15px;
+    }
 }
 
 /* Header Section End Here */
