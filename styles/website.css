@@ -555,41 +555,32 @@
  .footer-menu {}
 
  .footer-menu ul {
-     display: flex;
-     justify-content: center;
-     align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
 
  .footer-menu li {
-     list-style: none;
-     color: #FFF;
-     text-align: center;
-     font-family: Work Sans;
-     font-size: 18px;
-     font-style: normal;
-     font-weight: 600;
-     line-height: normal;
-     margin: 0 10px;
+    color: #FFF;
+    list-style: none;
+    margin-left: 20px;
  }
 
- .social-icon {
-    margin-top: 30px;
- }
-
- .social-icon ul {
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
-
- .social-icon ul li {
-     list-style-type: none;
-     margin-right: 25px;
-     color: #FFF;
-     width: 40px;
-     height: 40px;
-     font-size: 30px;
- }
+.social-icon{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.social-icon ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon ul li {
+    color: #FFF;
+    list-style: none;
+    margin-left: 50px;
+    font-size: 36px;
+}
 
  .footer-section p {
      text-align: center;

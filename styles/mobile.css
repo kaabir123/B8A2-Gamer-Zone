@@ -86,16 +86,24 @@
         left: -76px;
     }
 
+    .footer-menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .social-icon {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button-section {
+        margin-top: 250px;
+        margin-bottom: 100px;
+        padding: 100px;
+    }
+
 }
 
-.footer-menu ul{
-    display: flex;
-    flex-direction: column;
-}
-.social-icon {
-    display: flex;
-    flex-direction: column;
-}
+
 
 
 
