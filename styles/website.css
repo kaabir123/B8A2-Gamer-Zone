@@ -386,7 +386,7 @@
      font-weight: 900;
      font-size: 35px;
      color: white;
-     margin-bottom: 15px;
+     margin-bottom: -40px;
  }
 
  .content .play-button {}
@@ -402,6 +402,7 @@
      font-style: normal;
      font-weight: 600;
      line-height: normal;
+     margin-bottom: 118px;
  }
 
  .image-section img {
@@ -515,6 +516,7 @@
  }
 
  .btn-style_1 {
+     padding: 10PX;
      width: 243px;
      height: 80px;
      flex-shrink: 0;
@@ -547,7 +549,7 @@
      justify-content: center;
      align-items: center;
      margin-right: 5px;
-     margin-bottom: 15px;
+     margin-bottom: 50px;
  }
 
  .footer-menu {}
@@ -570,6 +572,25 @@
      margin: 0 10px;
  }
 
+ .social-icon {
+    margin-top: 30px;
+ }
+
+ .social-icon ul {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .social-icon ul li {
+     list-style-type: none;
+     margin-right: 25px;
+     color: #FFF;
+     width: 40px;
+     height: 40px;
+     font-size: 30px;
+ }
+
  .footer-section p {
      text-align: center;
      margin-top: 30px;
@@ -579,5 +600,14 @@
      font-size: 16px;
      font-style: normal;
      font-weight: 500;
+     line-height: normal;
+ }
+
+ .span-2 {
+     color: #FFF;
+     font-family: Work Sans;
+     font-size: 45px;
+     font-style: normal;
+     font-weight: 700;
      line-height: normal;
  }

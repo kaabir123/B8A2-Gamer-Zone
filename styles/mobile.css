@@ -88,6 +88,15 @@
 
 }
 
+.footer-menu ul{
+    display: flex;
+    flex-direction: column;
+}
+.social-icon {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 /* Header Section End Here */
